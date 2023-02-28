@@ -256,6 +256,21 @@ public static int SummInNumber (int number)
 }
   return summ;
 }
+
+// подсчет и вывод четных чисел в массиве
+public static void SummNumberInArray (int [] Array)
+{
+  int summ = 0;
+  for (int i = 0; i < Array.Length; i++)
+  {
+    if (Array[i] % 2 == 0)
+    {
+      summ = summ + 1;
+    }
+  }
+  Console.WriteLine();
+  Console.WriteLine(summ);
+}
 }
 
 
