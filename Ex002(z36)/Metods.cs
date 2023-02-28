@@ -67,6 +67,17 @@ public static void SummNumberInArray (int [] Array)
   Console.WriteLine();
   Console.WriteLine(summ);
 }
+// подсчет и вывод стоящих на нечётных позициях.
+public static void SummNumberNechotPosInArray (int [] Array)
+{
+  int summ = 0;
+  for (int i = 1; i < Array.Length; i=i+2)
+  {
+    summ = summ + Array[i];
+  }
+  Console.WriteLine();
+  Console.WriteLine(summ);
+}
 }
 
 
