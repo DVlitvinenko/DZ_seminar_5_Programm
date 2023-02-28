@@ -53,20 +53,6 @@ public static void WriteArray (int []NameArray)
   }
 }
 
-// подсчет и вывод нечетных чисел в массиве
-public static void SummNumberInArray (int [] Array)
-{
-  int summ = 0;
-  for (int i = 0; i < Array.Length; i++)
-  {
-    if (Array[i] % 2 == 1)
-    {
-      summ = summ + 1;
-    }
-  }
-  Console.WriteLine();
-  Console.WriteLine(summ);
-}
 // подсчет и вывод стоящих на нечётных позициях.
 public static void SummNumberNechotPosInArray (int [] Array)
 {
